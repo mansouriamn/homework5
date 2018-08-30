@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="trivia.css">
+  <title>Trivia Game Night</title>
+</head>
+
+<body>
+  <h1>My Bootcamp Trivia</h1>
+
+  <div id="Tcontainer" class="container">
+    <div class="title">Trivia</div>
+    <div class="question"><span id="question"></span></div>
+    <label class="option"><input name="option-1" type="radio" value="1" /><span id="opt1"></span> </label>
+    <label class="option"><input name="option-2" type="radio" value="2" /><span id="opt2"></span> </label>
+    <label class="option"><input name="option-3" type="radio" value="3" /><span id="opt3"></span> </label>
+    <button id="nextButton" class="nextBTN">Next Question</button>
+  </div>
+  <div id="result" class="container result" style="display:none;"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="questions.js"></script>
+  <script src="trivia-script.js"></script>
+  
+</body>
+
+</html>
